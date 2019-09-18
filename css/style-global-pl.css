@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.site-container {
+.container {
 	max-width: 881px;
 	margin: auto;
 	float: none;
@@ -65,7 +65,7 @@ strong   {
 	background-position: right top;
 	margin: 0px;
 	float: right;
-	height: 30px;
+	height: auto;
 	width: auto;
 	font-size: 18px;
 	color: #FFF;
