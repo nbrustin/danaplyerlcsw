@@ -37,6 +37,11 @@ h2 {
 strong {
   font-weight: normal;
 }
+
+.header-row {
+  margin: 0px; 
+}
+
 .mcontent {
   padding: 0px;
   /* width: 881px; */
