@@ -1,9 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-a[href^=tel] {
-  text-decoration:inherit;
-  color: inherit;
-}
 
 .container {
   max-width: 881px;
@@ -43,7 +39,7 @@ strong {
 }
 
 .header-row {
-  margin: 0px; 
+  margin: 0px;
 }
 
 .mcontent {
@@ -54,9 +50,9 @@ strong {
   margin-left: auto;
   text-align: left;
 }
- .header {
-} 
- /* .header img {
+.header {
+}
+/* .header img {
 	margin-top: 30px;
 	margin-right: 0px;
 	margin-bottom: 11px;
@@ -89,6 +85,12 @@ strong {
   padding-bottom: 10px;
   padding-left: 10px;
 }
+
+a[href^="tel"] {
+  text-decoration: none;
+  color: #fff;
+}
+
 .call-us strong {
   font-size: 14px;
   font-style: italic;
@@ -109,7 +111,7 @@ strong {
 
 .add-img {
   /* margin-right: 15px; */
-  float: right; 
+  float: right;
 }
 .left-content {
   /* margin: 0px;
@@ -174,14 +176,12 @@ strong {
   margin-bottom: 0px;
 }
 
-.mobile-nav{
+.mobile-nav {
   display: none;
 }
 
-
 /* mobile */
 @media only screen and (max-width: 992px) {
-
   body {
     background-image: none;
   }
@@ -206,18 +206,18 @@ strong {
 
   .mobile-nav {
     display: block;
-    background-color: #f8f8f2
-  } 
+    background-color: #f8f8f2;
+  }
 
   .mobile-nav-text {
     text-align: center;
   }
 
   .images-navbar {
-    display: none; 
+    display: none;
   }
 
   .mobileNavButton {
-margin-bottom: 5px;
-}
+    margin-bottom: 5px;
+  }
 }
