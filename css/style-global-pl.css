@@ -1,10 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
-*[x-apple-data-detectors] {
-  border-bottom: 0 !important;
-  cursor: default !important;
-  color: inherit !important;
-  text-decoration: none !important;
+a[href^=tel] {
+  text-decoration:inherit;
+  color: inherit;
 }
 
 .container {
