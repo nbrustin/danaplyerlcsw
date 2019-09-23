@@ -130,6 +130,15 @@ a[href^="tel"] {
   /* width: 235px; */
 }
 
+.about-dana-text {
+  /* padding: 0px; */
+  margin: 30px auto;
+  /* margin-right: 50px; */
+  /* margin-left: 50px; */
+  line-height: 150%;
+  float: right;
+}
+
 .text {
   margin: 30px 50px;
 }
@@ -191,7 +200,7 @@ a[href^="tel"] {
   }
 
   .text {
-    margin: 5px;
+    margin: 15px 15px;
   }
 
   .right-text {
@@ -219,5 +228,13 @@ a[href^="tel"] {
 
   .mobileNavButton {
     margin-bottom: 5px;
+  }
+
+  .dana-face {
+    margin: auto;
+    display: block;
+  }
+  .about-dana-text {
+    margin: 15px 15px;
   }
 }

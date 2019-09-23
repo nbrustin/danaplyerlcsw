@@ -1,0 +1,8 @@
+.accordion-a section {}
+.accordion-a section[aria-expanded="true"] {}
+.accordion-a section[aria-expanded="false"] {}
+.accordion-a section header {}
+.accordion-a section header:before {}
+.accordion-a section header:after {}
+.accordion-a section header h1 {}
+.accordion-a section .content {}
