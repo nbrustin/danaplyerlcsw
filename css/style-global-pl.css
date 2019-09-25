@@ -189,6 +189,10 @@ a[href^="tel"] {
   display: none;
 }
 
+.mobile-address {
+  display: none;
+}
+
 /* mobile */
 @media only screen and (max-width: 992px) {
   body {
@@ -208,9 +212,10 @@ a[href^="tel"] {
   }
 
   .add-img {
-    display: block;
+    /* display: block;
     margin: auto;
-    float: none;
+    float: none; */
+    display:none;
   }
 
   .mobile-nav {
@@ -219,6 +224,11 @@ a[href^="tel"] {
   }
 
   .mobile-nav-text {
+    text-align: center;
+  }
+  
+  .mobile-address {
+    display: block;
     text-align: center;
   }
 
